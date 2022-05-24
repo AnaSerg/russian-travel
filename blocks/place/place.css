@@ -1,6 +1,31 @@
 .place {
     display: grid;
-    grid-template-columns: 460px 484px;
-    gap: 48px 40px;
+    grid-template-columns: 46.74% 49.2%;
+    gap: 48px 4.06%;
     margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        margin-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .place {
+        max-width: calc(100% - 2*24px);
+        margin: 0 auto 73px;
+        grid-template-columns: 100%;
+        gap: 32px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .place {
+        margin-bottom: 50px;
+        grid-template-columns: 100%;
+        gap: 32px;
+        max-width: 100%;
+    }
 }

@@ -8,3 +8,32 @@
     z-index: 2;
     position: relative;
 }
+
+
+@media screen and (max-width: 650px) {
+    .cover__title {
+        font-size: 52px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cover__title {
+        font-size: 42px;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .cover__title {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        margin: 0 0 16px;
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 1.09;
+    }
+}

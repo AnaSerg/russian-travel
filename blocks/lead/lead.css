@@ -2,6 +2,25 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0 auto;
-    max-width: 984px;
+    margin: 0 auto 92px;
+    max-width: calc(100% - 2*148px);
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: calc(100% - 2*48px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        margin-bottom: 64px;
+    }
 }
