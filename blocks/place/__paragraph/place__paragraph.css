@@ -2,6 +2,8 @@
     margin: 0;
     font-size: 18px;
     line-height: 163%;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .place__paragraph:first-of-type {

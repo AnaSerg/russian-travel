@@ -5,6 +5,14 @@
     font-size: 30px;
     line-height: 1.2;
     font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 560px) {
+    .lead__subtitle {
+        margin-bottom: 56px;
+    }
 }
 
 @media screen and (max-width: 560px) {

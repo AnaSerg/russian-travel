@@ -1,8 +1,8 @@
 .lead {
+    margin: 0 auto 92px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0 auto 92px;
     max-width: calc(100% - 2*148px);
 }
 

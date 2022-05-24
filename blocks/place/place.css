@@ -1,8 +1,8 @@
 .place {
+    margin-bottom: 80px;
     display: grid;
     grid-template-columns: 46.74% 49.2%;
     gap: 48px 4.06%;
-    margin-bottom: 80px;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,8 +13,8 @@
 
 @media screen and (max-width: 660px) {
     .place {
-        max-width: calc(100% - 2*24px);
         margin: 0 auto 73px;
+        max-width: calc(100% - 2*24px);
         grid-template-columns: 100%;
         gap: 32px;
     }
@@ -24,8 +24,8 @@
 @media screen and (max-width: 320px) {
     .place {
         margin-bottom: 50px;
+        max-width: 100%;
         grid-template-columns: 100%;
         gap: 32px;
-        max-width: 100%;
     }
 }
