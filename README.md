@@ -18,3 +18,7 @@
 ### Используемые технологии
 
 HTML, CSS, БЭМ
+
+### Ссылка на готовый проект
+
+https://anaserg.github.io/russian-travel/
