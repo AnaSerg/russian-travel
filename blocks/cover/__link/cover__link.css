@@ -5,10 +5,7 @@
   align-items: center;
   width: 100%;
   min-height: 740px;
-  background-image: url(../../../images/cover-trains.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../../../images/cover-trains.jpg) center / cover no-repeat;
   text-decoration: none;
   color: #fff;
 }
