@@ -9,7 +9,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 768px) {
     .lead__subtitle {
         margin-bottom: 56px;
     }
