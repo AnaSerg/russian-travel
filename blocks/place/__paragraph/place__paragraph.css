@@ -18,6 +18,10 @@
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
+        margin: 25px 16px 0;
+    }
+
+    .place__paragraph:first-of-type {
         margin: 0 16px;
     }
 }
